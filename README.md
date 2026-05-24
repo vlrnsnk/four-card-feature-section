@@ -5,22 +5,6 @@ Frontend Mentor challenges help improve frontend skills by building realistic UI
 
 ## 🚀 Using this template
 
-### 8. Update docs
-
-Put design files and style guide in docs directory.
-
-### 9. Update favicons
-
-Upload favicons to public directory (realfavicongenerator.net is recommended).
-
-### 10. Upload assets
-
-Put fonts to `src/fonts/` and content images to `src/images`.
-
-### 11. Update index.html
-
-Change text content and meta tags values.
-
 ### 12. Add preview images
 
 Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x630) after the project is ready for ease of sharing.
