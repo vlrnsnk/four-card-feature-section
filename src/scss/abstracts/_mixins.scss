@@ -24,11 +24,11 @@
 }
 
 @mixin text-preset-4() {
-  @include text($font-poppins, 0.9375rem, 400, 1.4, 0);
+  @include text($font-poppins, 0.9375rem, 400, 1.4, 0.0063rem);
 }
 
 @mixin text-preset-5() {
-  @include text($font-poppins, 0.8125rem, 400, 1.6, 0);
+  @include text($font-poppins, 0.8125rem, 400, 1.6, 0.0056rem);
 }
 
 /* Transitions */

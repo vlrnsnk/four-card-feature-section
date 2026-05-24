@@ -2,4 +2,46 @@
 
 .feature-card {
   padding: var(--spacing-400);
+  padding-top: calc(var(--spacing-400) - 4px);
+  background-color: var(--color-white);
+  border-radius: var(--spacing-100);
+  box-shadow: 0 15px 30px -11px hsl(213deg 47% 67% / 50%);
+
+  &__title {
+    margin-bottom: 0.375rem;
+    color: var(--color-grey-500);
+
+    @include text-preset-3;
+  }
+
+  &__description {
+    color: var(--color-grey-400);
+
+    @include text-preset-5;
+  }
+
+  &__icon {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-bottom: var(--spacing-200);
+  }
+
+  &--supervisor {
+    border-top: 4px solid var(--color-cyan);
+  }
+
+  &--team-builder {
+    border-top: 4px solid var(--color-red);
+  }
+
+  &--karma {
+    border-top: 4px solid var(--color-orange);
+  }
+
+  &--calculator {
+    border-top: 4px solid var(--color-blue);
+  }
 }
