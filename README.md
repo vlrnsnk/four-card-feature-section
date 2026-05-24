@@ -5,12 +5,6 @@ Frontend Mentor challenges help improve frontend skills by building realistic UI
 
 ## 🚀 Using this template
 
-### 7. Update dependencies (optional)
-
-```bash
-npx npm-check-updates -u
-```
-
 ### 8. Update docs
 
 Put design files and style guide in docs directory.
