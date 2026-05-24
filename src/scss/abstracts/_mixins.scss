@@ -1,5 +1,6 @@
 /* Text presets */
 @use 'sass:list';
+@use 'variables' as *;
 
 /* Typography utility */
 @mixin text($font-family, $font-size, $font-weight, $line-height, $letter-spacing) {
@@ -8,6 +9,26 @@
   font-weight: $font-weight;
   line-height: $line-height;
   letter-spacing: $letter-spacing;
+}
+
+@mixin text-preset-1() {
+  @include text($font-poppins, 2.25rem, 600, 1.4, 0.0156rem);
+}
+
+@mixin text-preset-2() {
+  @include text($font-poppins, 2.25rem, 200, 1.4, 0.0156rem);
+}
+
+@mixin text-preset-3() {
+  @include text($font-poppins, 1.25rem, 600, 1.35, 0);
+}
+
+@mixin text-preset-4() {
+  @include text($font-poppins, 0.9375rem, 400, 1.4, 0);
+}
+
+@mixin text-preset-5() {
+  @include text($font-poppins, 0.8125rem, 400, 1.6, 0);
 }
 
 /* Transitions */

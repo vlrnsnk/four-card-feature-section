@@ -1,8 +1,12 @@
 /* Fonts */
 
-$fonts: ();
+$fonts-poppins: (
+  200: 'Poppins-ExtraLight',
+  400: 'Poppins-Regular',
+  600: 'Poppins-SemiBold',
+);
 
-@each $weight, $file in $fonts {
+@each $weight, $file in $fonts-poppins {
   @font-face {
     font-family: sans-serif;
     font-weight: $weight;

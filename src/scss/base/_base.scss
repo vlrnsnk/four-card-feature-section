@@ -5,6 +5,18 @@
   /* stylelint-disable-next-line value-keyword-case */
   --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
   --font-size-base: 16px;
+  --color-grey-500: #{abstracts.$color-grey-500};
+  --color-grey-400: #{abstracts.$color-grey-400};
+  --color-white: #{abstracts.$color-white};
+  --color-red: #{abstracts.$color-red};
+  --color-cyan: #{abstracts.$color-cyan};
+  --color-blue: #{abstracts.$color-blue};
+  --color-orange: #{abstracts.$color-orange};
+  --spacing-500: #{abstracts.$spacing-500};
+  --spacing-400: #{abstracts.$spacing-400};
+  --spacing-300: #{abstracts.$spacing-300};
+  --spacing-200: #{abstracts.$spacing-200};
+  --spacing-100: #{abstracts.$spacing-100};
 }
 
 html {
@@ -15,17 +27,14 @@ html {
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
 html,
 body {
   height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
