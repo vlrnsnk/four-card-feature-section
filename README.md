@@ -1,46 +1,9 @@
-# Frontend Mentor - {{PROJECT_NAME}} solution
+# Frontend Mentor - Four card feature section solution
 
-This is a solution to the [{{CHALLENGE_NAME}} on Frontend Mentor]({{CHALLENGE_URL}}).
+This is a solution to the [Four card feature section on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
 ## 🚀 Using this template
-
-### 1. Create a new project
-
-Click **"Use this template"** on GitHub and create a new repository.
-
-### 2. Enable GitHub Pages deploy
-
-After creating repo: Settings → Pages → Source → GitHub Actions.
-
-### 3. Update project metadata
-
-#### In `package.json`
-
-```json
-"name": "{{PROJECT_NAME}}"
-```
-
-### 4. Update Vite base path (for GitHub Pages)
-
-```js
-base: "/{{REPO_NAME}}/",
-```
-
-### 5. Update README
-
-Replace all placeholders:
-
-- {{PROJECT_NAME}}
-- {{CHALLENGE_NAME}}
-- {{CHALLENGE_URL}}
-- {{SOLUTION_URL}}
-- {{LIVE_URL}}
-
-### 6. Update links
-
-- Solution URL: {{SOLUTION_URL}}
-- Live Site URL: {{LIVE_URL}}
 
 ### 7. Update dependencies (optional)
 
@@ -96,8 +59,7 @@ Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x
 
 Users should be able to:
 
-- {{CHALLENGE_REQUIREMENT_1}}
-- {{CHALLENGE_REQUIREMENT_2}}
+- View the optimal layout for the site depending on their device's screen size
 
 ### Preview
 
@@ -111,8 +73,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo]({{SOLUTION_URL}})
-- Live Site URL: [Live Site]({{LIVE_URL}})
+- Solution URL: [GitHub Repo](https://github.com/vlrnsnk/four-card-feature-section)
+- Live Site URL: [Live Site](https://vlrnsnk.github.io/four-card-feature-section)
 
 ## Features
 
