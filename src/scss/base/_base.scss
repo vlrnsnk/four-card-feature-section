@@ -1,0 +1,35 @@
+@use '../abstracts' as abstracts;
+
+:root {
+  --font-family-sans-serif: system-ui, sans-serif;
+  /* stylelint-disable-next-line value-keyword-case */
+  --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
+  --font-size-base: 16px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
