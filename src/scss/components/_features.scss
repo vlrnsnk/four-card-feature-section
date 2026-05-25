@@ -1,6 +1,9 @@
 @use '../abstracts' as *;
 
 .features {
+  max-width: 25rem;
+  margin: 0 auto;
+
   &__header {
     display: flex;
     flex-direction: column;
