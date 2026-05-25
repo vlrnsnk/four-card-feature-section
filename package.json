@@ -45,7 +45,7 @@
     "*.json",
     "*.js",
     "src/*.html",
-    "src/sass/**/*.scss"
+    "src/scss/**/*.scss"
   ],
   "lint-staged": {
     "*.{js,html,scss,css,json,md}": "prettier --write",
