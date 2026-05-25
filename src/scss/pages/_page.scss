@@ -10,4 +10,10 @@
       padding: 5rem 3.375rem;
     }
   }
+
+  @media (width >= 90rem) {
+    &__content {
+      padding: 6.375rem 10.1875rem 10.1875rem;
+    }
+  }
 }

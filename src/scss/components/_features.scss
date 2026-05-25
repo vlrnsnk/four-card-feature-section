@@ -86,4 +86,15 @@
       }
     }
   }
+
+  @media (width >= 90rem) {
+    max-width: 69.625rem;
+
+    &__list {
+      align-items: center;
+      grid-template-areas:
+        'supervisor team-builder calculator'
+        'supervisor karma calculator';
+    }
+  }
 }
